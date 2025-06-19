@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*custom css*/
+
+.text{
+    font-family: cursive,sans-serif;
+    font-weight: lighter;
+}
+
+.text-one{
+    font-family: fantasy,sans-serif;
+}
+
+.text-two{
+    font-family: monospace,sans-serif;
+    font-weight: 600;
+}
+
+.text-three{
+    font-family: Monaco;
+}
+
+.text-four{
+    font-family: Lucida Console;
+}
+
+
+.background{
+    background-color: #000B58;
+}
+
+.color-one{
+    color: #000B58;
+}
+
+.color{
+    color: #E8F9FF;
+}
+.background-one{
+    background-color: #E8F9FF;
+}
+
+.color-two{
+    color: #219ebc;
+}
+
+.background-two{
+    background-color: #219ebc;
+}

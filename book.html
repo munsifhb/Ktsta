@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="">Booking Page</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <header class="bg-sky-950 p-4"><a href="index.html" class="uppercase text-3xl text-slate-100 ">ktsta</a></header>
+
+
+
+ <section class="" style="background-image: url(image/book.jpeg);background-repeat: no-repeat;background-position: center;background-size: cover;">
+
+    <div class="bg-sky-950/55 p-5
+    sm:p-2
+    md:p-5
+    ">
+
+        <div class="p-4 w-3/4 bg-sky-50 rounded-2xl pb-16 mx-auto
+ sm:w-full
+ lg:w-3/4
+ ">
+
+    <fieldset class="">
+
+        <form action="" class="">
+
+
+            <div class="w-2/4
+            sm:w-full
+            lg:w-2/4
+            ">
+            <h1 class="text-4xl text-one text-sky-950 mt-5 capitalize">Book your trips</h1>
+            <p class="text-sm text-balance text-four font-bold text-sky-950 mt-2">KTSTA makes it easy to book a ride and send packages. You can even book a charter bus to take your group anywhere</p>
+
+        </div>
+
+        <div class="mt-5 p-3 flex gap-10
+        sm:flex sm:flex-col
+        lg:flex lg:flex-row
+        ">
+
+            <div class="">
+
+            <label for="dep" class="text-sky-950 text-lg text">Deperture</label><br>
+            <select name="dep" required id="" class="w-52 h-8 text-sky-950 text bg-sky-50 ring-1 ring-sky-950 rounded-lg pl-2">
+                <option value="" class="">Select Deperture</option>
+                <option value="" class="">Katsina</option>
+                <option value="" class="">Kano</option>
+                <option value="" class="">Kaduna</option>
+                <option value="" class="">Lagos</option>
+                <option value="" class="">Abuja</option>
+            </select>
+
+        </div>
+
+        <div class="">
+            <label for="dep" class="text-sky-950 text-lg text">Destination</label><br>
+            <select name="dep" required id="" class="w-52 h-8 text-sky-950 text bg-sky-50 ring-1 ring-sky-950 rounded-lg pl-2">
+                <option value="" class="">Select Destination</option>
+                <option value="" class="">Kano</option>
+                <option value="" class="">Katsina</option>
+                <option value="" class="">Abuja</option>
+                <option value="" class="">Kaduna</option>
+                <option value="" class="">Lagos</option>
+            </select>
+        </div>
+        <div class="">
+            <label for="depdate" class="text-sky-950 text-lg text">Deperture Date</label><br>
+            <input type="date" required name="" id="depdate" class="w-52 h-8 text rounded-lg p-2 text-sky-950 bg-sky-50 ring-1 ring-sky-950">
+        </div>
+        </div>
+
+        <div class="w-full">
+
+            <div class="w-full flex gap-14
+            sm:flex sm:flex-col sm:gap-3
+            md:flex md:flex-row md:gap-14
+            ">
+                <article class="w-2/4
+                sm:w-full
+                md:w-2/4
+                ">
+                <label for="name" class="text-xl text-sky-950 text capitalize">Full Name</label><br>
+                <input type="text" required class="w-full p-2 text-sky-950 text bg-sky-50 h-10 rounded-sm ring-1 ring-sky-950">
+            </article>
+
+            <article class="w-2/4
+            sm:w-full
+            md:w-2/4
+            ">
+                <label for="name"  class="text-xl text-sky-950 text capitalize">Phone No</label><br>
+                <input type="number" placeholder="08062344126" pattern="08036064124" required class="w-full p-2 text-sky-950 text bg-sky-50 h-10 rounded-sm ring-1 ring-sky-950">
+
+            </article>
+
+            
+            </div>
+
+            <div class="w-full flex gap-14 mt-5
+            sm:flex sm:flex-col sm:gap-3 sm:mt-0
+            md:flex md:flex-row md:gap-14 md:mt-5
+            ">
+
+                <article class="w-2/4
+                sm:w-full
+                md:w-2/4
+                ">
+                <label for="name" class="text-xl text-sky-950 text capitalize">Email</label><br>
+                <input type="email" required class="w-full p-2 text-sky-950 text bg-sky-50 h-10 rounded-sm ring-1 ring-sky-950">
+            </article>
+
+            <article class="w-2/4
+            sm:w-full
+            md:w-2/4
+            ">
+                <label for="name" class="text-xl text-sky-950 text capitalize">seat no</label><br>
+                <!-- <input type="number" class="w-full p-2 bg-sky-50 h-10 rounded-sm ring-1 ring-sky-950"> -->
+
+                <select name="" required id="" class="w-full p-2 text-sky-950 text bg-sky-50 h-10 rounded-sm ring-1 ring-sky-950">
+                    <option value="" class="">select seat no</option>
+                    <option value="" class="">01</option>
+                    <option value="" class="">02</option>
+                    <option value="" class="">03</option>
+                    <option value="" class="">04</option>
+                    <option value="" class="">05</option>
+                    <option value="" class="">06</option>
+                    <option value="" class="">07</option>
+                    <option value="" class="">08</option>
+                    <option value="" class="">09</option>
+                    <option value="" class="">10</option>
+                    <option value="" class="">11</option>
+                    <option value="" class="">12</option>
+                </select>
+
+            </article>
+
+            </div>
+
+
+            <div class="w-full flex gap-14 mt-5
+            sm:flex sm:flex-col sm:gap-3 sm:mt-0
+            md:flex md:flex-row md:gap-14 md:mt-5">
+        
+            <article class="w-2/4
+                sm:w-full
+                md:w-2/4
+                ">
+                <label for="name" class="text-xl text-sky-950 text capitalize">Next of kin name</label><br>
+                <input type="name" required class="w-full p-2 text-sky-950 text bg-sky-50 h-10 rounded-sm ring-1 ring-sky-950">
+            </article>
+
+            <article class="w-2/4
+            sm:w-full
+            md:w-2/4
+            ">
+                <label for="name" class="text-xl text-sky-950 text capitalize">Next of kin Phone no</label><br>
+                <input type="number" required class="w-full p-2 text-sky-950 text bg-sky-50 h-10 rounded-sm ring-1 ring-sky-950">
+
+            </article>
+
+        </div>
+
+        <div class="mt-5 w-2/4 bg-sky-950 mx-auto rounded-lg p-3
+        sm:w-full
+        md:w-2/4
+        ">
+
+        <h1 class="text-2xl text-sky-100 text-center text capitalize">payment</h1>
+
+            <input type="number" required placeholder="Card no" name="" id="card" class="w-3/4 h-10 rounded-sm p-2 mt-8 text-sky-950 text
+            sm:w-full
+            md:w-3/4
+            ">
+
+        </div>
+
+        <a href="Homepage.html" class="text-xl mx-auto text-sky-100 rounded-xl bg-sky-950 font-bold p-3 w-fit mt-10 delay-150 duration-300 flex gap-5 hover:text-sky-950 hover:bg-sky-100
+                sm:mt-8 sm:p-2
+                md:mt-10 md:p-2
+                ">BOOK NOW  <svg xmlns="http://www.w3.org/2000/svg" class="size-8 hover:text-sky-950" viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome
+                     - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#219ebc" d="M64 104l0 88 96 0 0-96L72 96c-4.4 0-8 3.6-8
+                      8zm482 88L465.1 96 384 96l0 96 162 0zm-226 0l0-96-96 0 0 96 96 0zM592 384l-16 0c0 53-43 96-96 96s-96-43-96-96l-128 0c0 53-43 96-96 96s-96-43-96-96l-16 0c-26.5 0-48-21.5-48-48L0
+                       104C0 64.2 32.2 32 72 32l120 0 160 0 113.1 0c18.9 0 36.8 8.3 49 22.8L625 186.5c9.7 11.5 15 26.1 15 41.2L640 336c0 26.5-21.5 48-48 
+                    48zm-64 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM160 432a48 48 0 1 0 0-96 48 48 0 1 0 0 96z"/></svg></a>
+            
+
+        </div>
+
+        </form>
+
+    </fieldset>
+
+ </div>
+
+    </div>
+
+ </section>
+    
+</body>
+</html>
